@@ -58,4 +58,82 @@ const inventors = [
   ];
 
   
+
+  const travelMethods = [
+    'car',
+    'car',
+    'truck',
+    'truck',
+    'bike',
+    'walk',
+    'car',
+    'van',
+    'bike',
+    'walk',
+    'car',
+    'van',
+    'car',
+    'truck',
+  ];
   
+
+  const devs = [
+    { name: 'Alex', year: 1988 },
+    { name: 'Dani', year: 1986 },
+    { name: 'Matt', year: 1970 },
+    { name: 'Wes', year: 2015 },
+  ];
+  
+
+  const comments = [
+    { text: 'Love this!', id: 523423 },
+    { text: 'Super good', id: 823423 },
+    { text: 'You are the best', id: 2039842 },
+    { text: 'Ramen is my fav food ever', id: 123523 },
+    { text: 'Nice Nice Nice!', id: 542328 },
+  ];
+  
+//   ❗️ These arrays MUST be placed above ALL of the exercises you will be completing below!
+
+//__________________________________________________________________________________________
+
+/*
+Exercise 1: Array.prototype.filter()
+
+Filter the array of inventors into a new array containing only the inventors 
+born in the 1500's.
+
+- You have an array of inventors, each with a birth year listed by the property 
+  'year'.
+- Use the Array.prototype.filter() method to create a new array.
+- The new array, 'veryOldInventors', should only include inventors born between 
+  the years 1500 and 1599.
+*/
+
+let veryOldInventors = [];
+
+// Complete the exercise in the space below:
+
+veryOldInventors = inventors.filter((inventor) => {
+    return inventor.year >= 1500 && inventor.year < 1600;
+})
+
+//First attempt - I realized I didn't need to make a new variable since putting the filtered items
+//into the veryOldInventors array.
+// const inventorsBornInFifteenHundreds = veryOldInventors.filter ((inventor) => {
+// return inventors.year //also need to use inventor (singular) in order to get individual array and not all the arrays
+// }) 
+
+//Second attempt - realized I didn't need to write let again. Can't re-declare something that has been declared before.
+// let veryOldInventors = inventors.filter((inventor) => {
+//     return inventor.year >= 1500 && inventor.year < 1600;
+// })
+
+// Check your work:
+console.log('Exercise 1 my result: ', veryOldInventors);
+console.log('Exercise 1 correct result: ', [
+  { first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
+  { first: 'Johannes', last: 'Kepler', year: 1571, passed: 1630 },
+]);
+
+//__________________________________________________________________________________________
