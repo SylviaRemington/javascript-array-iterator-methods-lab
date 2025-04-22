@@ -155,11 +155,20 @@ Hint: Return a new object literal from the callback that looks like:
 
 let inventorNames = [];
 
+
 // Complete the exercise in the space below:
 
-inventorNames = inventors.map((inventor) => {
-    return inventor.first + " " + inventor.last;
+inventorNames = inventors.map(function(inventor) {
+    return {
+        first: inventor.first,
+        last: inventor.last
+    }
 })
+
+// First attempt - I was returning a string rather than an object; thus, need to change it to an object.
+// inventorNames = inventors.map((inventor) => {
+//     return inventor.first + " " + inventor.last;
+// })
 
 // Check your work:
 console.log('Exercise 2 my result: ', inventorNames);
