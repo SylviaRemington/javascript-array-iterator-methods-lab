@@ -219,6 +219,10 @@ Information regarding sort from
 let sortedByBirthYear = [];
 
 // Complete the exercise in the space below:
+sortedByBirthYear = inventors.sort ((inventor) => {
+    if inventor.year //seems like I should do a forEach... but this is doing it, but need to do an if... else if
+    //but not sure on the equation to create this...
+})
 
 // Check your work:
 console.log('Exercise 3 my result: ', sortedByBirthYear);
@@ -236,3 +240,5 @@ console.log('Exercise 3 correct result: ', [
   { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
   { first: 'Katherine', last: 'Blodgett', year: 1898, passed: 1979 },
 ]);
+
+//__________________________________________________________________________________________
