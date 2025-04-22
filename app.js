@@ -243,7 +243,6 @@ console.log('Exercise 3 correct result: ', [
 
 //__________________________________________________________________________________________
 
-Copy
 /* 
 Exercise 4: Array.prototype.find()
 
