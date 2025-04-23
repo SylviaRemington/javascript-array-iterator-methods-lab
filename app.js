@@ -368,6 +368,12 @@ old or older.
 - Use the Array.prototype.some() method to check if any person in the array is 
   18 years old or older.
 - Store the result (true or false) in the variable 'isAdultPresent'. 
+
+Also addtl notes below Exercise 6 from GA Lab page:
+You can use a static year value to solve problems 6 and 7. 
+As a small level up opportunity, check out how to dynamically get today’s year using 
+the Date() constructor.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
 */
 
 let isAdultPresent = null;
