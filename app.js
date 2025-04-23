@@ -392,6 +392,12 @@ console.log('Exercise 6 correct result: ', true);
 
 //__________________________________________________________________________________________
 
+// const devs = [
+//     { name: 'Alex', year: 1988 },
+//     { name: 'Dani', year: 1986 },
+//     { name: 'Matt', year: 1970 },
+//     { name: 'Wes', year: 2015 },
+//   ];
 
 /*
 Exercise 7: Array.prototype.every()
@@ -404,11 +410,17 @@ Use Array.prototype.every() to determine if every person in the devs array is
 - Use the Array.prototype.every() method to verify if every individual in the
   array is at least 19 years old.
 - Store the result (true or false) in the variable 'isEveryone19OrOlder'.
+
 */
 
-let isEveryone19OrOlder = null;
+// let isEveryone19OrOlder = null;
 
 // Complete the exercise in the space below:
+
+let isEveryone19OrOlder = devs.every((dev) => {
+    return dev.year > 2006;
+})
+
 
 // Check your work:
 console.log('Exercise 7 my result: ', isEveryone19OrOlder);
