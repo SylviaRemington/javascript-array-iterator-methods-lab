@@ -433,6 +433,14 @@ console.log('Exercise 7 correct result: ', false);
 
 //__________________________________________________________________________________________
 
+// const comments = [
+//     { text: 'Love this!', id: 523423 },
+//     { text: 'Super good', id: 823423 },
+//     { text: 'You are the best', id: 2039842 },
+//     { text: 'Ramen is my fav food ever', id: 123523 },
+//     { text: 'Nice Nice Nice!', id: 542328 },
+//   ];
+
 /*
 Exercise 8: Array.prototype.find()
 
@@ -446,8 +454,13 @@ let commentById = {};
 
 // Complete the exercise in the space below:
 
+commentById = comments.find((comment) => {
+    return comment.id === 823423;
+})
+
 // Check your work:
 console.log('Exercise 8 my result: ', commentById);
 console.log('Exercise 8 correct result: ', { text: 'Super good', id: 823423 });
+
 
 //__________________________________________________________________________________________
