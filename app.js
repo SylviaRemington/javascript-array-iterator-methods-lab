@@ -219,10 +219,10 @@ Information regarding sort from
 let sortedByBirthYear = [];
 
 // Complete the exercise in the space below:
-sortedByBirthYear = inventors.sort ((inventor) => {
-    if inventor.year //seems like I should do a forEach... but this is doing it, but need to do an if... else if
+// sortedByBirthYear = inventors.sort ((inventor) => {
+    // if inventor.year //seems like I should do a forEach... but this is doing it, but need to do an if... else if
     //but not sure on the equation to create this...
-})
+// })
 
 // Check your work:
 console.log('Exercise 3 my result: ', sortedByBirthYear);
@@ -260,6 +260,10 @@ let inventorNamedAda = {};
 
 // Complete the exercise in the space below:
 
+inventorNamedAda = inventors.find((inventor) => {
+    return inventor.first === "Ada";
+})
+
 // Check your work:
 console.log('Exercise 4 my result: ', inventorNamedAda);
 console.log('Exercise 4 correct result: ', {
@@ -267,4 +271,7 @@ console.log('Exercise 4 correct result: ', {
   last: 'Lovelace',
   year: 1815,
   passed: 1852,
-});
+}); 
+
+//__________________________________________________________________________________________
+
