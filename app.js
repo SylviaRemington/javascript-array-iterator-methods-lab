@@ -1,3 +1,7 @@
+//Still need to complete Exercise 3
+//Still need to complete Exercise 5
+
+
 const inventors = [
     { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
     { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
@@ -426,5 +430,24 @@ let isEveryone19OrOlder = devs.every((dev) => {
 console.log('Exercise 7 my result: ', isEveryone19OrOlder);
 console.log('Exercise 7 correct result: ', false);
 
+
+//__________________________________________________________________________________________
+
+/*
+Exercise 8: Array.prototype.find()
+
+Use Array.prototype.find() to identify and retrieve the comment object with 
+a specific ID 823423 from an array of comment objects.
+
+- Assign the found comment object to the variable 'commentById'.
+*/
+
+let commentById = {};
+
+// Complete the exercise in the space below:
+
+// Check your work:
+console.log('Exercise 8 my result: ', commentById);
+console.log('Exercise 8 correct result: ', { text: 'Super good', id: 823423 });
 
 //__________________________________________________________________________________________
