@@ -374,7 +374,8 @@ let isAdultPresent = null;
 
 // Complete the exercise in the space below:
 isAdultPresent = devs.some((dev) => {
-    return dev.year >=2007;
+    return dev.year >=2007; //This works if you use a blanket 2025; however, I need to find out 
+    // how to be more specific and relate it to an exact date.
 })
 console.log(isAdultPresent);
 
