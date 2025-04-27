@@ -1,9 +1,9 @@
+// <!-- RE-REVIEWING AGAIN 4/27/25 and on -->
+
 //Still need to complete Exercise 3
 //Still need to complete Exercise 5
 //Still need to complete Level Up Exercise 1 exercise
 //Still need to complete Level Up Exercise 2 exercise
-
-
 
 const inventors = [
     { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
@@ -579,3 +579,7 @@ console.log('Level Up 2 correct result: ', {
   walk: 2,
   van: 2,
 });
+
+
+
+
