@@ -1,7 +1,7 @@
 // <!-- RE-REVIEWING AGAIN 4/27/25 and on -->
 
-//Still need to complete Exercise 3
-//Still need to complete Exercise 5
+//Still need to complete Exercise 3 -- haven't figured thiis out yet correctly.
+//Still need to complete Exercise 5 -- haven't figured thiis out yet correctly either.
 //Still need to complete Level Up Exercise 1 exercise
 //Still need to complete Level Up Exercise 2 exercise
 
@@ -226,10 +226,11 @@ Information regarding sort from
 let sortedByBirthYear = [];
 
 // Complete the exercise in the space below:
-// sortedByBirthYear = inventors.sort ((inventor) => {
-    // if inventor.year //seems like I should do a forEach... but this is doing it, but need to do an if... else if
+sortedByBirthYear = inventors.sort ((inventor) => {
+    // if inventor.year //seems like I should do a forEach... 
+    // and maybe need to do an if... else if
     //but not sure on the equation to create this...
-// })
+})
 
 // Check your work:
 console.log('Exercise 3 my result: ', sortedByBirthYear);
@@ -392,6 +393,14 @@ console.log('Exercise 5 correct result: ', [
 // 📚 A note on parameter naming:
 // It is considered best practice to choose a clear, singular name for the element parameter. 
 // If dealing with an array called students, then the singular student is a logical choice.
+
+
+// EXAMPLE:
+// const students = [];
+
+// let mappedArray = students.map((student) => {
+  
+// });
 
 //__________________________________________________________________________________________
 
