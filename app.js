@@ -280,6 +280,12 @@ console.log('Exercise 4 correct result: ', {
   passed: 1852,
 }); 
 
+//Also, here is the array iterator method of find from the lesson:
+// find an element in an array:
+// array.find((element) => {
+  // search criteria 
+// });
+
 //__________________________________________________________________________________________
 
 /*
@@ -306,7 +312,7 @@ You're not changing the original array — you're creating a new one with the up
 let firstLast = [];
 
 // Complete the exercise in the space below:
-
+Not sure how to do this one yet. 
 // firstLast = people.map (()) //JUST STARTED THIS PART... need to come back to it to figure it out.
 
 
@@ -354,6 +360,38 @@ console.log('Exercise 5 correct result: ', [
   'Tony Blair',
   'William Blake',
 ]);
+
+//Also, from lesson for map array iterator method: 
+// callback function parameters
+// array.map((element, index, array) => {
+// });
+
+// element - The current element
+// index - The index of the current element (optional)
+// array - The array the iterator method was called upon (optional, and you probably won’t ever use it)
+// Remember, the callback function we write will be called once for each element in the array. 
+// Under the hood, the engine will be passing arguments for each of these three parameters 
+// once for every iteration through the array.
+
+
+// Another example: 
+// const array = ['apple','banana','orange'];
+// const mappedArray = array.map((element, index, array) => {
+//   return `element is: ${element}, index is: ${index}, array is ${array}`;
+// });
+// console.log(mappedArray)
+// [ 'element is: apple, index is: 0, array is apple,banana,orange',
+//   'element is: banana, index is: 1, array is apple,banana,orange',
+//   'element is: orange, index is: 2, array is apple,banana,orange' ]
+
+
+// As we loop through the array, element is being supplied different values as an argument. 
+// The index is also changing as we move through the array. The array itself is static, 
+// as it always references the array itself.
+
+// 📚 A note on parameter naming:
+// It is considered best practice to choose a clear, singular name for the element parameter. 
+// If dealing with an array called students, then the singular student is a logical choice.
 
 //__________________________________________________________________________________________
 
