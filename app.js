@@ -566,7 +566,7 @@ let totalYearsLived = 0;
 
 // Complete the exercise in the space below:
 
-totalYearsLived = inventors.reduce((accumulatedValueHere?, inventor))//need to research this reduce method more
+totalYearsLived = inventors.reduce((accumulatedValueHere, inventor))//need to research this reduce method more
 
 // Check your work:
 console.log('Level Up 1 my result: ', totalYearsLived);
@@ -615,7 +615,7 @@ let travelMethodCounts = {};
 
 // Complete the exercise in the space below:
 
-travelMethodCounts = travelMethods.reduce(())//need to research this reduce method more
+travelMethodCounts = travelMethods.reduce()//need to research this reduce method more
 
 // Check your work:
 console.log('Level Up 2 my result: ', travelMethodCounts);
